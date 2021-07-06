@@ -4,25 +4,24 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="header-right col-lg-6 col-md-6">
                 <h1>
-                    Santorini Island <br>
-                    in Greece
+                    Glamping<br>
+                    Desa Rindu Hati
                 </h1>
                 <p class="pt-20">
-                    If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may
-                    see some for as low as $.17 each.
+                    Glamping Desa Rindu Hati merupakan objek wisata populer yang dapat anda kunjungi bersama teman dan keluarga tercinta
                 </p>
                 <a href="#" class="main_btn">
-                    Get Started
+                    Lihat Penawaran
                     <img src="{{ asset('template1/img/next.png')}}" alt="">
                 </a>
             </div>
 
             <div class="col-lg-6 col-md-6 header-left">
                 <div class="">
-                    <img class="img-fluid w-100" src="{{ asset('template1/img/banner/banner-img.jpg')}}" alt="">
+                    <img class="img-fluid w-100" src="{{ asset('template1/img/banner/glamping.jpg')}}" alt="">
                 </div>
                 <div class="video-popup d-flex align-items-center">
-                    <a class="play-video video-play-button animate" href="https://www.youtube.com/watch?v=KUln2DXU5VE" data-animate="zoomIn"
+                    <a class="play-video video-play-button animate" href="https://www.youtube.com/watch?v=j1AXFNPmQ7g" data-animate="zoomIn"
                      data-duration="1.5s" data-delay="0.1s">
                         <span></span>
                     </a>

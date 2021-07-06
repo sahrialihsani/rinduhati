@@ -20,7 +20,7 @@
 		z-index: 99;
 		@include transition();
 		display: inline-block;
-		background: #ffffff;
+		background: transparent;
 		span {
 			height: 2px;
 			width: 30px;

@@ -10,7 +10,7 @@
 				<a href="/">Beranda</a>
 			</li>
 			<li>
-				<a href="packages.html">Paket</a>
+				<a href="paket">Paket</a>
 			</li>
 			<li>
 				<div class="dropdown">
@@ -35,7 +35,7 @@
 				</div>
 			</li>
 			<li>
-				<a href="contact.html">Contact</a>
+				<a href="kontak">Kontak</a>
 			</li>
 		</ul>
 	</div>

@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/','index');
+Route::view('paket','menus.paket.paket');
+Route::view('kontak','menus.kontak');
+
+
