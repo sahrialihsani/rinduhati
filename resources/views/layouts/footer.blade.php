@@ -4,26 +4,25 @@
 		<div class="row footer-top">
 			<div class="col-lg-3  col-md-6 col-sm-6">
 				<div class="single-footer-widget">
-					<h6>About Crafted</h6>
+					<h6>Tentang Rindu Hati</h6>
 					<p>
-						The world has become so fast paced that people don’t want to stand by reading a page of information, they would
-						much rather look.
+						Rindu Hati merupakan suatu wilayah di Kecamatan Taba Penanjung Kabupaten Bengkulu Tengah yang mempunyai karakteristik wilayah khas pedesaan berupa hamparan persawahan, perkebunan dan perbukitan.
 					</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="single-footer-widget">
-					<h6>Navigation Links</h6>
+					<h6>Link Navigasi</h6>
 					<div class="row">
 						<ul class="col footer-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="project.html">Project</a></li>
+							<li><a href="{{ asset('/')}}">Home</a></li>
+							<li><a href="{{ asset('spot/wisata')}}">Pariwisata</a></li>
+							<li><a href="{{ asset('paket')}}">Paket</a></li>
 						</ul>
 						<ul class="col footer-nav">
-							<li><a href="team-members.html">Team Members</a></li>
-							<li><a href="blog-single.html">Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="{{ asset('tentang_desa')}}">Tentang Desa</a></li>
+							<li><a href="{{ asset('blog')}}">Blog</a></li>
+							<li><a href="{{ asset('kontak')}}">Kontak</a></li>
 						</ul>
 					</div>
 				</div>
@@ -31,8 +30,8 @@
 
 			<div class="col-lg-3  col-md-6 col-sm-6">
 				<div class="single-footer-widget">
-					<h6>Newsletter</h6>
-					<p>For business professionals caught between high OEM price mediocre print and graphic.</p>
+					<h6>Berlangganan</h6>
+					<p>Berlangganan untuk mendapatkan informasi menarik tentang Desa Rindu Hati.</p>
 					<div class="" id="mc_embed_signup">
 
 						<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
@@ -58,22 +57,18 @@
 			</div>
 			<div class="col-lg-3  col-md-6 col-sm-6">
 				<div class="single-footer-widget mail-chimp">
-					<h6 class="mb-20">Instafeed</h6>
+					<h6 class="mb-20">Sosial Media</h6>
 					<ul class="instafeed d-flex flex-wrap">
-						<li><img src="{{ asset('template1/img/instagram/i1.jpg')}}" alt=""></li>
-						<li><img src="{{ asset('template1/img/instagram/i2.jpg')}}" alt=""></li>
-						<li><img src="{{ asset('template1/img/instagram/i3.jpg')}}" alt=""></li>
-						<li><img src="{{ asset('template1/img/instagram/i4.jpg')}}" alt=""></li>
-						<li><img src="{{ asset('template1/img/instagram/i5.jpg')}}" alt=""></li>
-						<li><img src="{{ asset('template1/img/instagram/i6.jpg')}}" alt=""></li>
-						<li><img src="{{ asset('template1/img/instagram/i7.jpg')}}" alt=""></li>
-						<li><img src="{{ asset('template1/img/instagram/i8.jpg')}}" alt=""></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+	{{-- <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
 		<div class="container">
 			<div class="row justify-content-between">
 				<div>
@@ -89,6 +84,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 </footer>
 <!--================ End footer Area  =================-->

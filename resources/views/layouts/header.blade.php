@@ -1,13 +1,13 @@
 	<!--================ Offcanvus Menu Area =================-->
 	<div class="side_menu">
 		<div class="logo">
-			<a href="/">
+			<a href="{{ asset('/')}}">
 				<img src="{{ asset('template1/img/logo.png')}}" alt="">
 			</a>
 		</div>
 		<ul class="list menu-left">
 			<li>
-				<a href="/">Beranda</a>
+				<a href="{{ asset('/')}}">Beranda</a>
 			</li>
 			<li>
 				<div class="dropdown">
@@ -21,18 +21,21 @@
 				</div>
 			</li>
 			<li>
-				<a href="paket">Paket</a>
+				<a href="{{ asset('paket')}}">Paket</a>
 			</li>
-			<li>
+			{{-- <li>
 				<div class="dropdown">
 					<button type="button" class="dropdown-toggle" data-toggle="dropdown">Tentang Desa</button>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="about-us.html">Desa Rindu Hati</a>
-						<a class="dropdown-item" href="amenities.html">Lokasi Desa Rindu Hati</a>
-						<a class="dropdown-item" href="elements.html">Akses ke Desa Rindu Hati</a>
+						<a class="dropdown-item" href="{{ asset('tentang_desa')}}">Desa Rindu Hati</a>
+						<a class="dropdown-item" href="{{ asset('tentang_desa/lokasi')}}">Lokasi Desa Rindu Hati</a>
+						<a class="dropdown-item" href="{{ asset('tentang_desa')}}">Akses ke Desa Rindu Hati</a>
 					</div>
 				</div>
 				
+			</li> --}}
+			<li>
+				<a href="{{ asset('tentang_desa')}}">Tentang Desa</a>
 			</li>
 			<li>
 				<div class="dropdown">
@@ -40,13 +43,13 @@
 						Blog
 					</button>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="blog">Blog</a>
+						<a class="dropdown-item" href="{{ asset('blog')}}">Blog</a>
 						<a class="dropdown-item" href="{{ asset('blog/detail_blog')}}">Detail Blog</a>
 					</div>
 				</div>
 			</li>
 			<li>
-				<a href="kontak">Kontak</a>
+				<a href="{{ asset('kontak')}}">Kontak</a>
 			</li>
 		</ul>
 	</div>

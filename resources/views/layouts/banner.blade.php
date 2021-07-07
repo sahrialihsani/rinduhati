@@ -8,7 +8,7 @@
                     Desa Rindu Hati
                 </h1>
                 <p class="pt-20">
-                    Glamping Desa Rindu Hati merupakan objek wisata populer yang dapat anda kunjungi bersama teman dan keluarga tercinta
+                    Glamping Desa Rindu Hati merupakan objek wisata populer yang dapat anda kunjungi bersama Teman dan Keluarga tercinta
                 </p>
                 <a href="#" class="main_btn">
                     Lihat Penawaran

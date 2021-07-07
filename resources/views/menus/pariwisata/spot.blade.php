@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="{{ asset('template1/img/favicon.png')}}" type="image/png">
+        <link rel="icon" href="{{ asset('template1/img/logo.png')}}" type="image/png">
         <title>Wisata Desa Rindu Hati</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('template1/css/bootstrap.css') }}">
@@ -34,7 +34,7 @@
 					</h1>
 					<div class="page-link-wrap">
 						<div class="page_link">
-							<a href="/">Beranda</a>
+							<a href="{{ asset('/')}}">Beranda</a>
 							<a style="font-weight:bold" href="spot/wisata">Spot Pariwisata</a>
 						</div>
 						<img src="{{ asset('template1/img/next.png') }}" alt="">
@@ -61,7 +61,7 @@
 						</div>
 						<div class="amenities-details">
 							<div class="amenities-meta">
-								<a style="background-color: #398EA8; color:white;" href=""><span>Keluarga</span></a>
+								<a style="background-color: #398EA8; color:white;" href=""><span>Family</span></a>
 							</div>
 							<h5><a href="#">Glamping Rindu Hati</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -77,7 +77,7 @@
 						</div>
 						<div class="amenities-details">
 							<div class="amenities-meta">
-                                <a style="background-color: #398EA8; color:white;" href=""><span>Individu</span></a>
+                                <a style="background-color: #398EA8; color:white;" href=""><span>Solo Travelling</span></a>
 							</div>
 							<h5><a href="#">Tubing Rindu Hati</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -93,7 +93,7 @@
 						</div>
 						<div class="amenities-details">
 							<div class="amenities-meta">
-                                <a style="background-color: #398EA8; color:white;" href=""><span>Teman</span></a>
+                                <a style="background-color: #398EA8; color:white;" href=""><span>Friends</span></a>
 							</div>
 							<h5><a href="#">Air Terjun Cuup Jen</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et

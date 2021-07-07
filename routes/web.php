@@ -20,8 +20,4 @@ Route::view('blog','menus.blog.blog');
 Route::view('blog/detail_blog','menus.blog.detail_blog');
 Route::view('spot/wisata','menus.pariwisata.spot');
 Route::view('spot/kategori','menus.pariwisata.kategori');
-
-
-
-
-
+Route::view('tentang_desa','menus.tentang.index');

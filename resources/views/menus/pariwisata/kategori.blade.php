@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="{{ asset('template1/img/favicon.png')}}" type="image/png">
+        <link rel="icon" href="{{ asset('template1/img/logo.png')}}" type="image/png">
         <title>Wisata Desa Rindu Hati</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('template1/css/bootstrap.css') }}">
@@ -34,7 +34,7 @@
 					</h1>
 					<div class="page-link-wrap">
 						<div class="page_link">
-							<a href="/">Beranda</a>
+							<a href="{{ asset('/')}}">Beranda</a>
 							<a style="font-weight:bold" href="{{asset('spot/kategori')}}">Kategori</a>
 						</div>
 						<img src="{{ asset('template1/img/next.png') }}" alt="">
@@ -43,7 +43,7 @@
 
 				<div class="col-lg-6 col-md-6 header-left">
 					<div class="">
-						<img class="img-fluid w-100" src="{{ asset('template1/img/paket/pantaipanjang.jpg') }}" alt="">
+						<img style="object-fit: contain; width: 500px;height:650px" class="img-fluid w-100" src="{{ asset('template1/img/list.png') }}" alt="">
 					</div>
 				</div>
 			</div>
@@ -51,65 +51,58 @@
 	</section>
 	<!--================ End banner section =================-->
 	<section class="amenities-area section_gap">
-		<div class="container">
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/pantaipanjang.jpg')}}" alt="">
+		<div style="text-align: center" class="container">
+			<div style="margin-left: 40px; margin-right: 40px; margin-top:70px" class="single-gallery">
+				<img style="object-fit: contain;width: 300px; height:300px" class="img-fluid" src="{{ asset('template1/img/family.png')}}" alt="">
 				<div class="gallery-content">
 					<div class="title align-items-center justify-content-between d-flex">
-						<p>Paket Wisata Kota Bengkulu</p>
-						<h4>$56<span>/day</span></h4>
+						<h4>Family</span></h4>
 					</div>
-					<h4>Kota Bengkulu</h4>
 				</div>
 				<div class="light-box">
-					<a href="{{ asset('template1/img/paket/pantaipanjang.jpg')}}" class="img-popup">
+					<a href="{{ asset('template1/img/family.png')}}" class="img-popup">
 						<span class="lnr lnr-magnifier"></span>
 					</a>
 				</div>
 			</div>
 
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/pantailinau.jpg')}}" alt="">
+			<div style="margin-left: 40px; margin-right: 40px; margin-top:70px" class="single-gallery">
+				<img style="object-fit: contain;width: 300px; height:300px" class="img-fluid" src="{{ asset('template1/img/traveler.svg')}}" alt="">
 				<div class="gallery-content">
 					<div class="title align-items-center justify-content-between d-flex">
-						<p>Paket Wisata Kabupaten Kaur</p>
-						<h4>$56<span>/day</span></h4>
+						<h4>Solo Travelling</span></h4>
 					</div>
-					<h4>Kabupaten Kaur</h4>
 				</div>
 				<div class="light-box">
-					<a href="{{ asset('template1/img/paket/pantailinau.jpg')}}" class="img-popup">
+					<a href="{{ asset('template1/img/traveler.svg')}}" class="img-popup">
 						<span class="lnr lnr-magnifier"></span>
 					</a>
 				</div>
 			</div>
 
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/suban.jpg')}}" alt="">
+			<div style="margin-left: 40px; margin-right: 40px; margin-top:70px" class="single-gallery">
+				<img style="object-fit: contain;width: 300px; height:300px" class="img-fluid" src="{{ asset('template1/img/friends.png')}}" alt="">
 				<div class="gallery-content">
 					<div class="title align-items-center justify-content-between d-flex">
-						<p>Paket Wisata Kabupaten Rejang Lebong</p>
-						<h4>$56<span>/day</span></h4>
+						<h4>Friends</span></h4>
 					</div>
-					<h4>Kabupaten Rejang Lebong</h4>
 				</div>
 				<div class="light-box">
-					<a href="{{ asset('template1/img/paket/suban.jpg')}}" class="img-popup">
+					<a href="{{ asset('template1/img/friends.png')}}" class="img-popup">
 						<span class="lnr lnr-magnifier"></span>
 					</a>
 				</div>
 			</div>
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/bendunganseluma.jpg')}}" alt="">
+
+			<div style="margin-left: 40px; margin-right: 40px; margin-top:70px" class="single-gallery">
+				<img style="object-fit: contain;width: 300px; height:300px" class="img-fluid" src="{{ asset('template1/img/love.png')}}" alt="">
 				<div class="gallery-content">
 					<div class="title align-items-center justify-content-between d-flex">
-						<p>Paket Wisata Kabupaten Seluma</p>
-						<h4>$56<span>/day</span></h4>
+						<h4>Sweety</span></h4>
 					</div>
-					<h4>Kabupaten Seluma</h4>
 				</div>
 				<div class="light-box">
-					<a href="{{ asset('template1/img/paket/bendunganseluma.jpg')}}" class="img-popup">
+					<a href="{{ asset('template1/img/love.png')}}" class="img-popup">
 						<span class="lnr lnr-magnifier"></span>
 					</a>
 				</div>

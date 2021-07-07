@@ -596,7 +596,6 @@ $.Widget.prototype = {
 
 				// Allow widgets to customize the disabled handling
 				// - disabled as an array instead of boolean
-				// - disabled class as method for disabling individual parts
 				if ( !suppressDisabledCheck &&
 						( instance.options.disabled === true ||
 						$( this ).hasClass( "ui-state-disabled" ) ) ) {

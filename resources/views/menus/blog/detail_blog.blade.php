@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="{{ asset('template1/img/favicon.png')}}" type="image/png">
+        <link rel="icon" href="{{ asset('template1/img/logo.png')}}" type="image/png">
         <title>Wisata Desa Rindu Hati</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('template1/css/bootstrap.css') }}">
@@ -288,7 +288,7 @@
                             <div class="br"></div>
                         </aside>
                         <aside class="single_sidebar_widget author_widget">
-                            <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
+                            <img class="author_img rounded-circle" src="{{ asset('template1/img/blog/author.png')}}" alt="">
                             <h4>Charlie Barber</h4>
                             <p>Senior blog writer</p>
                             <div class="social_icon">
@@ -307,7 +307,7 @@
                         <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Popular Posts</h3>
                             <div class="media post_item">
-                                <img src="img/blog/popular-post/post1.jpg" alt="post">
+                                <img src="{{ asset('template1/img/blog/popular-post/post1.jpg')}}" alt="post">
                                 <div class="media-body">
                                     <a href="blog-details.html">
                                         <h3>Space The Final Frontier</h3>
@@ -316,7 +316,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="img/blog/popular-post/post2.jpg" alt="post">
+                                <img src="{{ asset('template1/img/blog/popular-post/post2.jpg')}}" alt="post">
                                 <div class="media-body">
                                     <a href="blog-details.html">
                                         <h3>The Amazing Hubble</h3>
@@ -325,7 +325,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="img/blog/popular-post/post3.jpg" alt="post">
+                                <img src="{{ asset('template1/img/blog/popular-post/post3.jpg')}}" alt="post">
                                 <div class="media-body">
                                     <a href="blog-details.html">
                                         <h3>Astronomy Or Astrology</h3>
@@ -334,7 +334,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="img/blog/popular-post/post4.jpg" alt="post">
+                                <img src="{{ asset('template1/img/blog/popular-post/post4.jpg')}}" alt="post">
                                 <div class="media-body">
                                     <a href="blog-details.html">
                                         <h3>Asteroids telescope</h3>
@@ -345,7 +345,7 @@
                             <div class="br"></div>
                         </aside>
                         <aside class="single_sidebar_widget ads_widget">
-                            <a href="#"><img class="img-fluid" src="img/blog/add.jpg" alt=""></a>
+                            <a href="#"><img class="img-fluid" src="{{ asset('template1/img/blog/add.jpg')}}" alt=""></a>
                             <div class="br"></div>
                         </aside>
                         <aside class="single_sidebar_widget post_category_widget">
