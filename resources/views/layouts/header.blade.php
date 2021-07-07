@@ -1,13 +1,24 @@
 	<!--================ Offcanvus Menu Area =================-->
 	<div class="side_menu">
 		<div class="logo">
-			<a href="index.html">
+			<a href="/">
 				<img src="{{ asset('template1/img/logo.png')}}" alt="">
 			</a>
 		</div>
 		<ul class="list menu-left">
 			<li>
 				<a href="/">Beranda</a>
+			</li>
+			<li>
+				<div class="dropdown">
+					<button type="button" class="dropdown-toggle" data-toggle="dropdown">
+						Pariwisata
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="{{ asset('spot/wisata')}}">Spot Pariwisata</a>
+						<a class="dropdown-item" href="{{ asset('spot/kategori')}}">Kategori</a>
+					</div>
+				</div>
 			</li>
 			<li>
 				<a href="paket">Paket</a>
@@ -29,8 +40,8 @@
 						Blog
 					</button>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="blog.html">Blog</a>
-						<a class="dropdown-item" href="single-blog.html">Detail Blog</a>
+						<a class="dropdown-item" href="blog">Blog</a>
+						<a class="dropdown-item" href="{{ asset('blog/detail_blog')}}">Detail Blog</a>
 					</div>
 				</div>
 			</li>

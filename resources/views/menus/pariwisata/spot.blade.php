@@ -30,16 +30,12 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="header-right col-lg-6 col-md-6">
 					<h1>
-						Paket Wisata
+						Spot Pariwisata  
 					</h1>
-					<p class="pt-20">
-                        Kota Bengkulu terletak di kawasan pesisir yang berhadapan langsung dengan Samudra Hindia. Kota ini memiliki luas wilayah 144,52 km² dengan ketinggian rata-rata kurang dari 500 meter. Sebagai daerah yang berada di pesisiran, Kota Bengkulu tidak memiliki wilayah yang berjarak lebih dari 30 km dari pesisir pantai.
-                        Kota ini dilayani oleh Pelabuhan Pulau Baai yang merupakan pelabuhan samudera satu-satunya di Provinsi Bengkulu.
-					</p>
 					<div class="page-link-wrap">
 						<div class="page_link">
 							<a href="/">Beranda</a>
-							<a style="font-weight:bold" href="paket">Paket</a>
+							<a style="font-weight:bold" href="spot/wisata">Spot Pariwisata</a>
 						</div>
 						<img src="{{ asset('template1/img/next.png') }}" alt="">
 					</div>
@@ -56,75 +52,55 @@
 	<!--================ End banner section =================-->
 	<section class="amenities-area section_gap">
 		<div class="container">
-			<div class="row align-items-end justify-content-left">
-				<div class="col-lg-6">
-					<div class="main_title">
-						<h1>Paket Wisata</h1>
+			<div class="row justify-content-center">
+				<!-- single-blog -->
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-amenities">
+						<div class="amenities-thumb">
+							<img class="img-fluid" src="{{ asset('template1/img/glamping.jpg')}}" alt="">
+						</div>
+						<div class="amenities-details">
+							<div class="amenities-meta">
+								<a style="background-color: #398EA8; color:white;" href=""><span>Keluarga</span></a>
+							</div>
+							<h5><a href="#">Glamping Rindu Hati</a></h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/pantaipanjang.jpg')}}" alt="">
-				<div class="gallery-content">
-					<div class="title align-items-center justify-content-between d-flex">
-						<p>Paket Wisata Kota Bengkulu</p>
-						<h4>$56<span>/day</span></h4>
+				<!-- single-blog -->
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-amenities">
+						<div class="amenities-thumb">
+							<img class="img-fluid" src="{{ asset('template1/img/tubing.jpg')}}" alt="">
+						</div>
+						<div class="amenities-details">
+							<div class="amenities-meta">
+                                <a style="background-color: #398EA8; color:white;" href=""><span>Individu</span></a>
+							</div>
+							<h5><a href="#">Tubing Rindu Hati</a></h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+						</div>
 					</div>
-					<h4>Kota Bengkulu</h4>
 				</div>
-				<div class="light-box">
-					<a href="{{ asset('template1/img/paket/pantaipanjang.jpg')}}" class="img-popup">
-						<span class="lnr lnr-magnifier"></span>
-					</a>
-				</div>
-			</div>
-
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/pantailinau.jpg')}}" alt="">
-				<div class="gallery-content">
-					<div class="title align-items-center justify-content-between d-flex">
-						<p>Paket Wisata Kabupaten Kaur</p>
-						<h4>$56<span>/day</span></h4>
+				<!-- single-blog -->
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-amenities">
+						<div class="amenities-thumb">
+							<img class="img-fluid" src="{{ asset('template1/img/cuupjen.jpg')}}" alt="">
+						</div>
+						<div class="amenities-details">
+							<div class="amenities-meta">
+                                <a style="background-color: #398EA8; color:white;" href=""><span>Teman</span></a>
+							</div>
+							<h5><a href="#">Air Terjun Cuup Jen</a></h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+						</div>
 					</div>
-					<h4>Kabupaten Kaur</h4>
 				</div>
-				<div class="light-box">
-					<a href="{{ asset('template1/img/paket/pantailinau.jpg')}}" class="img-popup">
-						<span class="lnr lnr-magnifier"></span>
-					</a>
-				</div>
-			</div>
-
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/suban.jpg')}}" alt="">
-				<div class="gallery-content">
-					<div class="title align-items-center justify-content-between d-flex">
-						<p>Paket Wisata Kabupaten Rejang Lebong</p>
-						<h4>$56<span>/day</span></h4>
-					</div>
-					<h4>Kabupaten Rejang Lebong</h4>
-				</div>
-				<div class="light-box">
-					<a href="{{ asset('template1/img/paket/suban.jpg')}}" class="img-popup">
-						<span class="lnr lnr-magnifier"></span>
-					</a>
-				</div>
-			</div>
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/bendunganseluma.jpg')}}" alt="">
-				<div class="gallery-content">
-					<div class="title align-items-center justify-content-between d-flex">
-						<p>Paket Wisata Kabupaten Seluma</p>
-						<h4>$56<span>/day</span></h4>
-					</div>
-					<h4>Kabupaten Seluma</h4>
-				</div>
-				<div class="light-box">
-					<a href="{{ asset('template1/img/paket/bendunganseluma.jpg')}}" class="img-popup">
-						<span class="lnr lnr-magnifier"></span>
-					</a>
-				</div>
-			</div>
 		</div>
 	</section>
     @include('layouts.footer');

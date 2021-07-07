@@ -16,5 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::view('/','index');
 Route::view('paket','menus.paket.paket');
 Route::view('kontak','menus.kontak');
+Route::view('blog','menus.blog.blog');
+Route::view('blog/detail_blog','menus.blog.detail_blog');
+Route::view('spot/wisata','menus.pariwisata.spot');
+Route::view('spot/kategori','menus.pariwisata.kategori');
+
+
+
 
 

@@ -174,8 +174,8 @@
 							magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
 							magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
-						<a href="#" class="main_btn">
-							Browse all Packages
+						<a href="paket" class="main_btn">
+							Lihat semua paket
 							<img src="{{ asset('template1/img/next.png')}}" alt="">
 						</a>
 					</div>

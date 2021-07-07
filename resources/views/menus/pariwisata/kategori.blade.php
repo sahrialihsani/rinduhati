@@ -30,16 +30,12 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="header-right col-lg-6 col-md-6">
 					<h1>
-						Paket Wisata
+						Kategori Pariwisata
 					</h1>
-					<p class="pt-20">
-                        Kota Bengkulu terletak di kawasan pesisir yang berhadapan langsung dengan Samudra Hindia. Kota ini memiliki luas wilayah 144,52 km² dengan ketinggian rata-rata kurang dari 500 meter. Sebagai daerah yang berada di pesisiran, Kota Bengkulu tidak memiliki wilayah yang berjarak lebih dari 30 km dari pesisir pantai.
-                        Kota ini dilayani oleh Pelabuhan Pulau Baai yang merupakan pelabuhan samudera satu-satunya di Provinsi Bengkulu.
-					</p>
 					<div class="page-link-wrap">
 						<div class="page_link">
 							<a href="/">Beranda</a>
-							<a style="font-weight:bold" href="paket">Paket</a>
+							<a style="font-weight:bold" href="{{asset('spot/kategori')}}">Kategori</a>
 						</div>
 						<img src="{{ asset('template1/img/next.png') }}" alt="">
 					</div>
@@ -56,13 +52,6 @@
 	<!--================ End banner section =================-->
 	<section class="amenities-area section_gap">
 		<div class="container">
-			<div class="row align-items-end justify-content-left">
-				<div class="col-lg-6">
-					<div class="main_title">
-						<h1>Paket Wisata</h1>
-					</div>
-				</div>
-			</div>
 			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
 				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/pantaipanjang.jpg')}}" alt="">
 				<div class="gallery-content">
