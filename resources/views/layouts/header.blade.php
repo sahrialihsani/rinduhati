@@ -12,6 +12,17 @@
 			<li>
 				<div class="dropdown">
 					<button type="button" class="dropdown-toggle" data-toggle="dropdown">
+						Blog
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="{{ asset('blog')}}">Blog</a>
+						<a class="dropdown-item" href="{{ asset('blog/detail_blog')}}">Detail Blog</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown">
+					<button type="button" class="dropdown-toggle" data-toggle="dropdown">
 						Pariwisata
 					</button>
 					<div class="dropdown-menu">
@@ -23,30 +34,8 @@
 			<li>
 				<a href="{{ asset('paket')}}">Paket</a>
 			</li>
-			{{-- <li>
-				<div class="dropdown">
-					<button type="button" class="dropdown-toggle" data-toggle="dropdown">Tentang Desa</button>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="{{ asset('tentang_desa')}}">Desa Rindu Hati</a>
-						<a class="dropdown-item" href="{{ asset('tentang_desa/lokasi')}}">Lokasi Desa Rindu Hati</a>
-						<a class="dropdown-item" href="{{ asset('tentang_desa')}}">Akses ke Desa Rindu Hati</a>
-					</div>
-				</div>
-				
-			</li> --}}
 			<li>
 				<a href="{{ asset('tentang_desa')}}">Tentang Desa</a>
-			</li>
-			<li>
-				<div class="dropdown">
-					<button type="button" class="dropdown-toggle" data-toggle="dropdown">
-						Blog
-					</button>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="{{ asset('blog')}}">Blog</a>
-						<a class="dropdown-item" href="{{ asset('blog/detail_blog')}}">Detail Blog</a>
-					</div>
-				</div>
 			</li>
 			<li>
 				<a href="{{ asset('kontak')}}">Kontak</a>

@@ -25,7 +25,7 @@
 
 	@include('layouts.header');
 	<!--================ Start banner section =================-->
-	<section style="margin-bottom: 100px" class="home-banner-area common-banner relative">
+	<section  class="home-banner-area common-banner relative">
 		<div class="container-fluid">
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="header-right col-lg-6 col-md-6">
@@ -47,7 +47,7 @@
 
 				<div class="col-lg-6 col-md-6 header-left">
 					<div class="">
-						<img class="img-fluid w-100" src="{{ asset('template1/img/banner/glamping.jpg') }}" alt="">
+						<img style="width: 500px;height:520px" class="img-fluid w-100" src="{{ asset('template1/img/banner/glamping.jpg') }}" alt="">
 					</div>
 				</div>
 			</div>
@@ -55,10 +55,10 @@
 	</section>
 	<!--================ End banner section =================-->
  <!--================Contact Area =================-->
- <section style="margin-top: 200px" class="contact_area section_gap">
+ <section  class="contact_area section_gap">
 	<div class="container">
 		<div class="col-lg-12">
-			<iframe style="border:0; width: 100%; height: 270px;" src="https://maps.google.com/maps?q=UPT%20KSLI%20Universitas%20Bengkulu&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+			<iframe style="border:0; width: 100%; height: 300px;" src="https://maps.google.com/maps?q=UPT%20KSLI%20Universitas%20Bengkulu&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
 		  </div>
 		<div class="row">
 			<div class="col-lg-3">

@@ -25,7 +25,7 @@
 
 	@include('layouts.header');
 	<!--================ Start banner section =================-->
-	<section style="margin-bottom: 100px" class="home-banner-area common-banner relative">
+	<section  class="home-banner-area common-banner relative">
 		<div class="container-fluid">
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="header-right col-lg-6 col-md-6">
@@ -44,17 +44,17 @@
 						<img src="{{ asset('template1/img/next.png') }}" alt="">
 					</div>
 				</div>
-
 				<div class="col-lg-6 col-md-6 header-left">
 					<div class="">
-						<img class="img-fluid w-100" src="{{ asset('template1/img/banner/glamping.jpg') }}" alt="">
+						<img style="width: 500px;height:520px" class="img-fluid w-100" src="{{ asset('template1/img/banner/glamping.jpg') }}" alt="">
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--================ End banner section =================-->
-	<section style="margin-top:200px" class="blog_area single-post-area section_gap">
+    {{-- style="margin-top:100px" --}}
+	<section  class="blog_area single-post-area section_gap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 posts-list">

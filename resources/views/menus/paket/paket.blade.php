@@ -25,7 +25,7 @@
 
 	@include('layouts.header');
 	<!--================ Start banner section =================-->
-	<section style="margin-bottom: 100px" class="home-banner-area common-banner relative">
+	<section class="home-banner-area common-banner relative">
 		<div class="container-fluid">
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="header-right col-lg-6 col-md-6">
@@ -47,7 +47,7 @@
 
 				<div class="col-lg-6 col-md-6 header-left">
 					<div class="">
-						<img style="object-fit: contain;width: 500px; height:650px" class="img-fluid w-100" src="{{ asset('template1/img/baggage.png')}}" alt="">
+						<img style="object-fit: contain;width: 500px; height:450px" class="img-fluid w-100" src="{{ asset('template1/img/baggage.png')}}" alt="">
 					</div>
 				</div>
 			</div>
@@ -58,13 +58,10 @@
 		<div class="container">
 			<div class="row align-items-end justify-content-left">
 				<div class="col-lg-6">
-					<div class="main_title">
-						<h1>Paket Wisata</h1>
-					</div>
 				</div>
 			</div>
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/pantaipanjang.jpg')}}" alt="">
+			<div style=" margin-top:25px;margin-left:10px" class="single-gallery">
+				<img style="width: 535px; height:550px;object-fit:cover" class="img-fluid" src="{{ asset('template1/img/paket/pantaipanjang.jpg')}}" alt="">
 				<div class="gallery-content">
 					<div class="title align-items-center justify-content-between d-flex">
 						<p>Paket Wisata Kota Bengkulu</p>
@@ -79,8 +76,8 @@
 				</div>
 			</div>
 
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/pantailinau.jpg')}}" alt="">
+			<div style=" margin-top:25px;margin-left:10px" class="single-gallery">
+				<img style="width: 535px; height:550px;object-fit:cover" class="img-fluid" src="{{ asset('template1/img/paket/pantailinau.jpg')}}" alt="">
 				<div class="gallery-content">
 					<div class="title align-items-center justify-content-between d-flex">
 						<p>Paket Wisata Kabupaten Kaur</p>
@@ -95,8 +92,8 @@
 				</div>
 			</div>
 
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/suban.jpg')}}" alt="">
+			<div style=" margin-top:25px;margin-left:10px" class="single-gallery">
+				<img style="width: 535px; height:550px;object-fit:cover" class="img-fluid" src="{{ asset('template1/img/paket/suban.jpg')}}" alt="">
 				<div class="gallery-content">
 					<div class="title align-items-center justify-content-between d-flex">
 						<p>Paket Wisata Kabupaten Rejang Lebong</p>
@@ -110,8 +107,8 @@
 					</a>
 				</div>
 			</div>
-			<div style="margin-left: 18px; margin-top:25px" class="single-gallery">
-				<img style="width: 535px; height:550px" class="img-fluid" src="{{ asset('template1/img/paket/bendunganseluma.jpg')}}" alt="">
+			<div style=" margin-top:25px;margin-left:10px" class="single-gallery">
+				<img style="width: 535px; height:550px;object-fit:cover" class="img-fluid" src="{{ asset('template1/img/paket/bendunganseluma.jpg')}}" alt="">
 				<div class="gallery-content">
 					<div class="title align-items-center justify-content-between d-flex">
 						<p>Paket Wisata Kabupaten Seluma</p>

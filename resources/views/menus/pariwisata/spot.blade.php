@@ -25,7 +25,7 @@
 
 	@include('layouts.header');
 	<!--================ Start banner section =================-->
-	<section style="margin-bottom: 100px" class="home-banner-area common-banner relative">
+	<section class="home-banner-area common-banner relative">
 		<div class="container-fluid">
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="header-right col-lg-6 col-md-6">
@@ -43,7 +43,7 @@
 
 				<div class="col-lg-6 col-md-6 header-left">
 					<div class="">
-						<img class="img-fluid w-100" src="{{ asset('template1/img/paket/pantaipanjang.jpg') }}" alt="">
+						<img style="width: 500px;height:520px" class="img-fluid w-100" src="{{ asset('template1/img/paket/pantaipanjang.jpg') }}" alt="">
 					</div>
 				</div>
 			</div>
@@ -63,7 +63,7 @@
 							<div class="amenities-meta">
 								<a style="background-color: #398EA8; color:white;" href=""><span>Family</span></a>
 							</div>
-							<h5><a href="#">Glamping Rindu Hati</a></h5>
+							<h5><a href="{{asset('spot/wisata/detailwisata')}}">Glamping Rindu Hati</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						</div>
@@ -79,7 +79,7 @@
 							<div class="amenities-meta">
                                 <a style="background-color: #398EA8; color:white;" href=""><span>Solo Travelling</span></a>
 							</div>
-							<h5><a href="#">Tubing Rindu Hati</a></h5>
+							<h5><a href="{{asset('spot/wisata/detailwisata')}}">Tubing Rindu Hati</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						</div>
@@ -95,7 +95,7 @@
 							<div class="amenities-meta">
                                 <a style="background-color: #398EA8; color:white;" href=""><span>Friends</span></a>
 							</div>
-							<h5><a href="#">Air Terjun Cuup Jen</a></h5>
+							<h5><a href="{{asset('spot/wisata/detailwisata')}}">Air Terjun Cuup Jen</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						</div>

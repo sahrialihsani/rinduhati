@@ -27,78 +27,6 @@
 
 	@include('layouts.banner');
 
-	{{-- <!--================ Start Popular Place Area =================-->
-	<div class="popular-place-area section_gap">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-5 offset-lg-1">
-					<div class="left-content">
-						<img class="img1 img-fluid" src="{{ asset('template1/img/popular/img1.jpg')}}" alt="">
-						<img class="img2 img-fluid" src="{{ asset('template1/img/popular/img2.jpg')}}" alt="">
-						<img class="img3 img-fluid" src="{{ asset('template1/img/popular/img3.jpg')}}" alt="">
-					</div>
-				</div>
-				<div class="col-lg-5 offset-lg-1">
-					<div class="right-content">
-						<div class="main_title">
-							<h1>Popular <br>Places Around <br>The World</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-						</div>
-						<div class="counter_area">
-							<div class="top-two">
-								<!-- single counter -->
-								<div class="single_counter">
-									<div class="thumb">
-										<img src="{{ asset('template1/img/popular/icon1.png')}}" alt="">
-									</div>
-									<div class="info-content">
-										<h4>London</h4>
-										<p>135 Places</p>
-									</div>
-								</div>
-								<!-- single counter -->
-								<div class="single_counter">
-									<div class="thumb">
-                                            <img src="{{ asset('template1/img/popular/icon2.png')}}" alt="">
-									</div>
-									<div class="info-content">
-										<h4>Turkey</h4>
-										<p>75 Places</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="bottom-two">
-								<!-- single counter -->
-								<div class="single_counter">
-									<div class="thumb">
-										<img src="{{ asset('template1/img/popular/icon3.png')}}" alt="">
-									</div>
-									<div class="info-content">
-										<h4>Paris</h4>
-										<p>150 Places</p>
-									</div>
-								</div>
-								<!-- single counter -->
-								<div class="single_counter">
-									<div class="thumb">
-										<img src="{{ asset('template1/img/popular/icon4.png')}}" alt="">
-									</div>
-									<div class="info-content">
-										<h4>Thailand</h4>
-										<p>85 Places</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--================ End Popular Place Area =================--> --}}
-
 	<!--================ Start Amenities Area =================-->
 	<section class="amenities-area section_gap">
 		<div class="container">
@@ -121,7 +49,7 @@
 							<div class="amenities-meta">
 								<a style="background-color: #398EA8; color:white;" href=""><span>Family</span></a>
 							</div>
-							<h5><a href="#">Glamping Rindu Hati</a></h5>
+							<h5><a href="{{asset('spot/wisata/detailwisata')}}">Glamping Rindu Hati</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						</div>
@@ -137,7 +65,7 @@
 							<div class="amenities-meta">
                                 <a style="background-color: #398EA8; color:white;" href=""><span>Solo Travelling</span></a>
 							</div>
-							<h5><a href="#">Tubing Rindu Hati</a></h5>
+							<h5><a href="{{asset('spot/wisata/detailwisata')}}">Tubing Rindu Hati</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						</div>
@@ -153,7 +81,7 @@
 							<div class="amenities-meta">
                                 <a style="background-color: #398EA8; color:white;" href=""><span>Friends</span></a>
 							</div>
-							<h5><a href="#">Air Terjun Cuup Jen</a></h5>
+							<h5><a href="{{asset('spot/wisata/detailwisata')}}">Air Terjun Cuup Jen</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						</div>
@@ -236,71 +164,6 @@
 		</div>
 	</section>
 	<!--================ End Portfolio Service Area =================-->
-
-	{{-- <!--================ Start Package Search Area =================-->
-	<section class="package-search-area section_gap">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-5">
-					<div class="main_title">
-						<h1>Search <br>Suitable & Desired <br>Package for You</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
-					</div>
-				</div>
-				<div class="col-lg-6 offset-lg-1">
-					<div class="contact-form-section">
-						<h4>Package Search</h4>
-						<form class="contact-form-area contact-page-form contact-form text-right" id="myForm" action="mail.html" method="post">
-							<div class="form-group col-md-12">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Destination" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Destination'">
-							</div>
-							<div class="form-group col-md-12">
-								<input type="text" class="form-control" id="datepicker" name="text" placeholder="Check in Date" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Check in Date'">
-							</div>
-							<div class="form-group col-md-12">
-								<input type="text" class="form-control" id="datepicker1" name="text" placeholder="Check Out Date" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Check Out Date'">
-							</div>
-							<div class="form-group col-md-12">
-								<div class="form-select">
-									<select>
-										<option value="1">Adults</option>
-										<option value="1">Adults</option>
-										<option value="1">Adults</option>
-										<option value="1">Adults</option>
-										<option value="1">Adults</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group col-md-12">
-								<div class="form-select">
-									<select>
-										<option value="1">Childs</option>
-										<option value="1">Childs</option>
-										<option value="1">Childs</option>
-										<option value="1">Childs</option>
-										<option value="1">Childs</option>
-									</select>
-								</div>
-							</div>
-							<div class="col-lg-12 text-center">
-								<button class="main_btn text-uppercase">
-									Browse all Packages
-									<img src="{{ asset('template1/img/next.png')}}" alt="">
-								</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Package Search Area =================--> --}}
 <!--================ Start Blog Area =================-->
 <section class="blog-area section_gap">
     <div class="container">

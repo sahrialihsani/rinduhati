@@ -25,7 +25,7 @@
 
 	@include('layouts.header');
 	<!--================ Start banner section =================-->
-	<section style="margin-bottom: 100px" class="home-banner-area common-banner relative">
+	<section  class="home-banner-area common-banner relative">
 		<div class="container-fluid">
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="header-right col-lg-6 col-md-6">
@@ -43,7 +43,7 @@
 
 				<div class="col-lg-6 col-md-6 header-left">
 					<div class="">
-						<img style="object-fit: contain; width: 500px;height:650px" class="img-fluid w-100" src="{{ asset('template1/img/list.png') }}" alt="">
+						<img style="object-fit: contain; width: 500px;height:450px" class="img-fluid w-100" src="{{ asset('template1/img/list.png') }}" alt="">
 					</div>
 				</div>
 			</div>
