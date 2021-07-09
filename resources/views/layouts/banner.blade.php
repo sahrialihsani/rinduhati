@@ -10,7 +10,7 @@
                 <p class="pt-20">
                     Glamping Desa Rindu Hati merupakan objek wisata populer yang dapat anda kunjungi bersama Teman dan Keluarga tercinta
                 </p>
-                <a href="#" class="main_btn">
+                <a href="{{ asset('spot/wisata/detailwisata')}}" class="main_btn">
                     Lihat Penawaran
                     <img src="{{ asset('template1/img/next.png')}}" alt="">
                 </a>

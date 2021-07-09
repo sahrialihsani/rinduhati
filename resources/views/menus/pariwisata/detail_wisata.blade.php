@@ -39,10 +39,12 @@
 					<div class="page-link-wrap">
 						<div class="page_link">
 							<a href="{{ asset('spot/wisata')}}">Spot Wisata</a>
-							<a style="font-weight:bold" href="{{asset('tentang_desa')}}">Detail Wisata</a>
+							<a style="font-weight:bold" href="{{asset('spot/wisata/detailwisata')}}">Detail Wisata</a>
 						</div>
 						<img src="{{ asset('template1/img/next.png') }}" alt="">
 					</div>
+                    <div>
+                </div>
 				</div>
 				<div class="col-lg-6 col-md-6 header-left">
 					<div class="">
@@ -111,31 +113,31 @@
                                 <div class="row justify-content-center">
                                    <div style="width: 100px">
 							        {{--Pemandu --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-left:5px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
                                     <p style="color:white;text-align:center">Pemandu</strong></p>
                                     </div>
                                    </div>
                                    <div style="width:100px">
                                     {{-- Peralatan --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-left:5px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
                                     <p style="color:white;text-align:center">Peralatan</strong></p>
                                     </div>
                                    </div>
                                    <div style="width: 100px;margin-top:5px">
 							        {{--Pemandu --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-left:5px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
                                     <p style="color:white;text-align:center">Jemputan</strong></p>
                                     </div>
                                    </div>
                                    <div style="width: 100px;margin-top:5px">
 							        {{--Pemandu --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-left:5px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
                                     <p style="color:white;text-align:center">Air Mineral</strong></p>
                                     </div>
                                    </div>
                                    <div style="width: 100px;margin-top:5px">
 							        {{--Pemandu --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-left:5px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
                                     <p style="color:white;text-align:center">Kamar Ganti</strong></p>
                                     </div>
                                    </div>

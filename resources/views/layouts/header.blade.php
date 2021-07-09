@@ -59,7 +59,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<a href="#" class="main_btn">
-						Pesan Tempat
+						Pesan via WA
 						<img src="{{ asset('template1/img/next.png')}}" alt="">
 					</a>
 				</div>
