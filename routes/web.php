@@ -12,13 +12,25 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Landingpage
+Route::get('/','LandingController@index');
+Route::get('paket','LandingController@paket');
+Route::get('kontak','LandingController@kontak');
+Route::get('blog','LandingController@blog');
+Route::get('blog/detail_blog','LandingController@detail_blog');
+Route::get('spot/wisata','LandingController@spot');
+Route::get('spot/wisata/detailwisata','LandingController@detail_wisata');
+Route::get('spot/kategori','LandingController@kategori');
+Route::get('tentang_desa','LandingController@tentang_desa');
+// Route::view('login_admin','login');
+//Login
+Route::get('admin/login', 'AuthController@login');
+Route::post('post-login', 'AuthController@postLogin'); 
+Route::get('admin/dashboard', 'AuthController@dashboard'); 
+Route::get('logout', 'AuthController@logout');
+Route::get('admin/profil', 'ProfilController@index'); 
+Route::get('admin/pariwisata', 'PariwisataController@index'); 
+Route::get('admin/paket', 'PaketController@index');
+Route::get('admin/blog', 'BlogController@index'); 
 
-Route::view('/','index');
-Route::view('paket','menus.paket.paket');
-Route::view('kontak','menus.kontak');
-Route::view('blog','menus.blog.blog');
-Route::view('blog/detail_blog','menus.blog.detail_blog');
-Route::view('spot/wisata','menus.pariwisata.spot');
-Route::view('spot/wisata/detailwisata','menus.pariwisata.detail_wisata');
-Route::view('spot/kategori','menus.pariwisata.kategori');
-Route::view('tentang_desa','menus.tentang.index');
+

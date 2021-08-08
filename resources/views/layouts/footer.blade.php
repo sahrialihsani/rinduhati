@@ -15,14 +15,14 @@
 					<h6>Link Navigasi</h6>
 					<div class="row">
 						<ul class="col footer-nav">
-							<li><a href="{{ asset('/')}}">Home</a></li>
-							<li><a href="{{ asset('spot/wisata')}}">Pariwisata</a></li>
-							<li><a href="{{ asset('paket')}}">Paket</a></li>
+							<li><a href="{{ url('/')}}">Home</a></li>
+							<li><a href="{{ url('spot/wisata')}}">Pariwisata</a></li>
+							<li><a href="{{ url('paket')}}">Paket</a></li>
 						</ul>
 						<ul class="col footer-nav">
-							<li><a href="{{ asset('tentang_desa')}}">Tentang Desa</a></li>
-							<li><a href="{{ asset('blog')}}">Blog</a></li>
-							<li><a href="{{ asset('kontak')}}">Kontak</a></li>
+							<li><a href="{{ url('tentang_desa')}}">Tentang Desa</a></li>
+							<li><a href="{{ url('blog')}}">Blog</a></li>
+							<li><a href="{{ url('kontak')}}">Kontak</a></li>
 						</ul>
 					</div>
 				</div>

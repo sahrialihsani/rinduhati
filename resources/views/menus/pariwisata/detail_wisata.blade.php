@@ -23,7 +23,7 @@
 
 <body>
 
-	@include('layouts.header');
+	@include('layouts.header')
 	<!--================ Start banner section =================-->
 	<section  class="home-banner-area common-banner relative">
 		<div class="container-fluid">
@@ -93,7 +93,7 @@
 						</div>
 						<div class="amenities-details">
 							<h5><a href="#">Jarak dari Pusat <br> Kota Bengkulu </a></h5>
-                            <div style="width:55px;background-color:#d82800; border-radius: 8px;padding-left:5px">
+                            <div style="width:55px;background-color:#d82800; border-radius: 8px;padding-left:7px">
 
 							<strong style="font-size: 14px;color:white">20 Km</strong>
 
@@ -113,31 +113,31 @@
                                 <div class="row justify-content-center">
                                    <div style="width: 100px">
 							        {{--Pemandu --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-right:2px">
                                     <p style="color:white;text-align:center">Pemandu</strong></p>
                                     </div>
                                    </div>
                                    <div style="width:100px">
                                     {{-- Peralatan --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-right:2px">
                                     <p style="color:white;text-align:center">Peralatan</strong></p>
                                     </div>
                                    </div>
                                    <div style="width: 100px;margin-top:5px">
 							        {{--Pemandu --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-right:2px">
                                     <p style="color:white;text-align:center">Jemputan</strong></p>
                                     </div>
                                    </div>
                                    <div style="width: 100px;margin-top:5px">
 							        {{--Pemandu --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-right:2px">
                                     <p style="color:white;text-align:center">Air Mineral</strong></p>
                                     </div>
                                    </div>
                                    <div style="width: 100px;margin-top:5px">
 							        {{--Pemandu --}}
-                                    <div style="height:30px;background-color:#188497; border-radius: 8px">
+                                    <div style="height:30px;background-color:#188497; border-radius: 8px;margin-right:2px">
                                     <p style="color:white;text-align:center">Kamar Ganti</strong></p>
                                     </div>
                                    </div>
@@ -149,7 +149,7 @@
 		</div>
 	</section>
     <!--================Blog Area =================-->
-    @include('layouts.footer');
+    @include('layouts.footer')
 	
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

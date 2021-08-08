@@ -23,7 +23,7 @@
 
 <body>
 
-	@include('layouts.header');
+	@include('layouts.header')
 	<!--================Blog Area =================-->
     <section class="blog_area single-post-area section_gap">
         <div class="container">
@@ -438,7 +438,7 @@
         </div>
     </section>
     <!--================Blog Area =================-->
-    @include('layouts.footer');
+    @include('layouts.footer')
 	
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

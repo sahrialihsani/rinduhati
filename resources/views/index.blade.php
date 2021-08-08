@@ -23,9 +23,9 @@
 
 <body>
 
-	@include('layouts.header');
+	@include('layouts.header')
 
-	@include('layouts.banner');
+	@include('layouts.banner')
 
 	<!--================ Start Amenities Area =================-->
 	<section class="amenities-area section_gap">
@@ -321,7 +321,7 @@
 			</div>
 	</section>
 	<!--================ End Newsletter Area =================-->
-    @include('layouts.footer');
+    @include('layouts.footer')
 	
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

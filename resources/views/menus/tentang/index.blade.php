@@ -23,7 +23,7 @@
 
 <body>
 
-	@include('layouts.header');
+	@include('layouts.header')
 	<!--================ Start banner section =================-->
 	<section  class="home-banner-area common-banner relative">
 		<div class="container-fluid">
@@ -164,7 +164,7 @@
         </div>
     </section>
     <!--================Blog Area =================-->
-    @include('layouts.footer');
+    @include('layouts.footer')
 	
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

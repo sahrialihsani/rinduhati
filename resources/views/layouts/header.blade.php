@@ -1,13 +1,13 @@
 	<!--================ Offcanvus Menu Area =================-->
 	<div class="side_menu">
 		<div class="logo">
-			<a href="{{ asset('/')}}">
-				<img src="{{ asset('template1/img/logo.png')}}" alt="">
+			<a href="{{ url('/')}}">
+				<img width="100px" height="100px" src="{{ asset('template1/img/logo.png')}}" alt="">
 			</a>
 		</div>
 		<ul class="list menu-left">
 			<li>
-				<a href="{{ asset('/')}}">Beranda</a>
+				<a href="{{ url('/')}}">Beranda</a>
 			</li>
 			<li>
 				<div class="dropdown">
@@ -15,8 +15,8 @@
 						Blog
 					</button>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="{{ asset('blog')}}">Blog</a>
-						<a class="dropdown-item" href="{{ asset('blog/detail_blog')}}">Detail Blog</a>
+						<a class="dropdown-item" href="{{ url('blog')}}">Blog</a>
+						<a class="dropdown-item" href="{{ url('blog/detail_blog')}}">Detail Blog</a>
 					</div>
 				</div>
 			</li>
@@ -26,19 +26,22 @@
 						Pariwisata
 					</button>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="{{ asset('spot/wisata')}}">Spot Pariwisata</a>
-						<a class="dropdown-item" href="{{ asset('spot/kategori')}}">Kategori</a>
+						<a class="dropdown-item" href="{{ url('spot/wisata')}}">Spot Pariwisata</a>
+						<a class="dropdown-item" href="{{ url('spot/kategori')}}">Kategori</a>
 					</div>
 				</div>
 			</li>
 			<li>
-				<a href="{{ asset('paket')}}">Paket</a>
+				<a href="{{ url('paket')}}">Paket</a>
 			</li>
 			<li>
-				<a href="{{ asset('tentang_desa')}}">Tentang Desa</a>
+				<a href="{{ url('tentang_desa')}}">Tentang Desa</a>
 			</li>
 			<li>
-				<a href="{{ asset('kontak')}}">Kontak</a>
+				<a href="{{ url('kontak')}}">Kontak</a>
+			</li>
+			<li>
+				<button  class="btn btn-primary"><a style="font-size:12px;color: white" href="{{ url('admin/login')}}">Login Admin</a></button>
 			</li>
 		</ul>
 	</div>
