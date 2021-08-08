@@ -19,6 +19,11 @@
 	<link rel="stylesheet" href="{{ asset('template1/vendors/scroll/jquery.mCustomScrollbar.css') }}">
 	<!-- main css -->
 	<link rel="stylesheet" href="{{ asset('template1/css/style.css') }}">
+	<link href="{{ asset('portofolio/css/style.css') }}" rel="stylesheet">
+	<link href="{{ asset('portofolio/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('portofolio/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('portofolio/vendor/venobox/venobox.css') }}" rel="stylesheet">
+
 </head>
 
 <body>
@@ -292,7 +297,7 @@
 	<!--================ End Testimonial Area =================-->
 
 	<!--================ Start Newsletter Area =================-->
-	<section class="newsletter-area section_gap">
+	{{-- <section class="newsletter-area section_gap">
 		<div class="container-fluid">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-5">
@@ -319,7 +324,122 @@
 					<img class="img-fluid nw-img" src="{{ asset('template1/img/nwl-img.png')}}" alt="">
 				</div>
 			</div>
-	</section>
+	</section> --}}
+	  <!-- ======= Portfoio Section ======= -->
+	  <section id="portfolio" class="portfoio">
+		<div class="container" data-aos="fade-up">
+  
+			<div class="main_title">
+				<h1>Galeri Wisata</h1>
+			</div>
+  
+		  <div class="row">
+			<div class="col-lg-12 d-flex justify-content-center">
+			  <ul id="portfolio-flters">
+				<li data-filter="*" class="filter-active">Semua</li>
+				<li data-filter=".filter-app">Glamping Rindu Hati</li>
+				<li data-filter=".filter-card">Tubing Rindu Hati</li>
+				<li data-filter=".filter-web">Air Terjun Cuup Jen</li>
+			  </ul>
+			</div>
+		  </div>
+  
+		  <div class="row portfolio-container">
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+			  <img src="portofolio/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>App 1</h4>
+				<p>App</p>
+				<a href="portofolio/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+			  <img src="portofolio/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>Web 3</h4>
+				<p>Web</p>
+				<a href="portofolio/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+			  <img src="portofolio/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>App 2</h4>
+				<p>App</p>
+				<a href="portofolio/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-card">
+			  <img src="portofolio/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>Card 2</h4>
+				<p>Card</p>
+				<a href="portofolio/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+			  <img src="portofolio/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>Web 2</h4>
+				<p>Web</p>
+				<a href="portofolio/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+			  <img src="portofolio/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>App 3</h4>
+				<p>App</p>
+				<a href="portofolio/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-card">
+			  <img src="portofolio/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>Card 1</h4>
+				<p>Card</p>
+				<a href="portofolio/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-card">
+			  <img src="portofolio/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>Card 3</h4>
+				<p>Card</p>
+				<a href="portofolio/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+			  <img src="portofolio/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+			  <div class="portfolio-info">
+				<h4>Web 3</h4>
+				<p>Web</p>
+				<a href="portofolio/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			  </div>
+			</div>
+  
+		  </div>
+  
+		</div>
+	  </section><!-- End Portfoio Section -->
 	<!--================ End Newsletter Area =================-->
     @include('layouts.footer')
 	
@@ -340,6 +460,11 @@
 	<script src="{{ asset('template1/vendors/swiper/js/swiper.min.js')}}"></script>
 	<script src="{{ asset('template1/vendors/scroll/jquery.mCustomScrollbar.js')}}"></script>
 	<script src="{{ asset('template1/js/theme.js')}}"></script>
+	<script src="{{ asset('portofolio/vendor/venobox/venobox.min.js')}}"></script>
+	<script src="{{ asset('portofolio/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+	<script src="{{ asset('portofolio/js/main.js')}}"></script>
+
+
 </body>
 
 </html>
